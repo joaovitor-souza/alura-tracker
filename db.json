@@ -1,0 +1,32 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Vue 3"
+    },
+    {
+      "id": 1,
+      "nome": "Typescript"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Iniciando estudos vue",
+      "projeto": {
+        "id": 2,
+        "nome": "Vue 3"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Iniciando estudos ts",
+      "projeto": {
+        "id": 1,
+        "nome": "Vue 3"
+      },
+      "id": 2
+    }
+  ]
+}
